@@ -9,4 +9,4 @@ Retail Pro 9 plugins are a combination of a COM library (.DLL) and a Manifest fi
 
 ## How to Build it
 
-Written in Delphi 11.1 but could be compiled with any Delphi compiler over the last 10 years. It uses a component in my [ccLib](https://github.com/corneliusdavid/ccLib) but only out of convenience and can be ignored.
+Written in Delphi 11.1 but could be compiled with any Delphi compiler over the last 10 years.
