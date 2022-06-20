@@ -4,7 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Mask, Vcl.ExtCtrls, LayoutSaver;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Mask, Vcl.ExtCtrls;
 
 type
   TfrmRProPluginMgrMain = class(TForm)
@@ -17,7 +17,6 @@ type
     lbDisabledPlugins: TListBox;
     edtRProPluginFolder: TLabeledEdit;
     Label3: TLabel;
-    ccRegistryLayoutSaver: TccRegistryLayoutSaver;
     procedure FormActivate(Sender: TObject);
     procedure lbActivePluginsDblClick(Sender: TObject);
     procedure lbDisabledPluginsDblClick(Sender: TObject);

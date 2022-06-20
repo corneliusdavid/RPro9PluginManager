@@ -10,7 +10,6 @@ object frmRProPluginMgrMain: TfrmRProPluginMgrMain
   Font.Height = -24
   Font.Name = 'Segoe UI'
   Font.Style = []
-  Position = poDefault
   OnActivate = FormActivate
   PixelsPerInch = 192
   TextHeight = 32
@@ -64,9 +63,6 @@ object frmRProPluginMgrMain: TfrmRProPluginMgrMain
         Value = 83.333333333333330000
       end>
     TabOrder = 0
-    ExplicitLeft = -11
-    ExplicitTop = 64
-    ExplicitWidth = 1254
     DesignSize = (
       1239
       889)
@@ -85,10 +81,6 @@ object frmRProPluginMgrMain: TfrmRProPluginMgrMain
       Padding.Right = 5
       Padding.Bottom = 5
       TabOrder = 0
-      ExplicitLeft = 113
-      ExplicitTop = 498
-      ExplicitWidth = 370
-      ExplicitHeight = 82
       object Label2: TLabel
         Left = 6
         Top = 6
@@ -122,10 +114,6 @@ object frmRProPluginMgrMain: TfrmRProPluginMgrMain
         ItemHeight = 32
         TabOrder = 0
         OnDblClick = lbActivePluginsDblClick
-        ExplicitLeft = 0
-        ExplicitTop = 55
-        ExplicitWidth = 614
-        ExplicitHeight = 690
       end
     end
     object Panel1: TPanel
@@ -143,10 +131,6 @@ object frmRProPluginMgrMain: TfrmRProPluginMgrMain
       Padding.Right = 5
       Padding.Bottom = 5
       TabOrder = 1
-      ExplicitLeft = 633
-      ExplicitTop = 149
-      ExplicitWidth = 626
-      ExplicitHeight = 739
       object Label1: TLabel
         Left = 6
         Top = 6
@@ -180,8 +164,6 @@ object frmRProPluginMgrMain: TfrmRProPluginMgrMain
         ItemHeight = 32
         TabOrder = 0
         OnDblClick = lbDisabledPluginsDblClick
-        ExplicitLeft = 2
-        ExplicitTop = 55
       end
     end
     object edtRProPluginFolder: TLabeledEdit
@@ -204,13 +186,12 @@ object frmRProPluginMgrMain: TfrmRProPluginMgrMain
       EditLabel.Caption = 'Retail Pro 9 Plugin Folder:'
       TabOrder = 2
       Text = 'C:\RetailPro9\Plugins'
-      ExplicitTop = 74
     end
     object Label3: TLabel
-      Left = 715
-      Top = 36
-      Width = 422
-      Height = 85
+      Left = 732
+      Top = 47
+      Width = 389
+      Height = 64
       Margins.Left = 6
       Margins.Top = 6
       Margins.Right = 6
@@ -220,9 +201,5 @@ object frmRProPluginMgrMain: TfrmRProPluginMgrMain
       Caption = 'Double-click to move a plugin from Active to Disabled or back.'
       WordWrap = True
     end
-  end
-  object ccRegistryLayoutSaver: TccRegistryLayoutSaver
-    Left = 182
-    Top = 247
   end
 end
